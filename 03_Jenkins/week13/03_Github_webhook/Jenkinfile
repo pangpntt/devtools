@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Define variables
-        DOCKER_IMAGE       = 'pangpntt/devtoll:tagname'
+        DOCKER_IMAGE       = 'pangpntt/devtoll:latest'
         DOCKER_CREDENTIALS = credentials('dockerhub')
     }
 
